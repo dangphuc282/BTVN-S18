@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bàn phím ảo</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    input {
+      width: 670px;
+      padding: 15px;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .keyboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 10px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .key {
+      background-color: #0084ff;
+      color: white;
+      font-size: 24px;
+      width: 60px;
+      height: 60px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .delete {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="inputText" placeholder="Nhập ở đây..." readonly />
+
+  <div class="keyboard" id="keyboard">
+   
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
